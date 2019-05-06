@@ -2,11 +2,11 @@ Checkers
 
 Table of Contents
 
-I	. . . . . . . . . . . . . . . .	 		   Introduction
-II	. . . . . . . . . . . . . . . .	           	  The Game
-III	. . . . . . . . . . . . . . . .	         Person vs. Person
-IV	. . . . . . . . . . . . . . . .      Person vs. AI Program
-V	. . . . . . . . . . . . . . . .       AI Progam vs. Person
+I	. . . . . . . . . . . . . . . .	 Introduction
+II	. . . . . . . . . . . . . . . .	 The Game
+III	. . . . . . . . . . . . . . . .	 Person vs. Person
+IV	. . . . . . . . . . . . . . . .  Person vs. AI Program
+V	. . . . . . . . . . . . . . . .  AI Progam vs. Person
 VI	. . . . . . . . . . . . . . . .  AI Program vs. AI Program
 
 I. Introduction
@@ -15,7 +15,7 @@ CS438 final project contains an AI-playable version of the game of checkers. The
 	
 1. C# Checkers Source Code 
 
-	Contains C# source code for the board as well as the logic 	to judge moves
+	Contains C# source code for the board as well as the logic to judge moves
 
 2. C++ AI Source Code
 
@@ -23,7 +23,7 @@ CS438 final project contains an AI-playable version of the game of checkers. The
 
 3. Checkers Game
 
-	Contains the executable checkers game, a shortcut with a 	neat little icon, a test AI executable, and the text files 	necessary to transfer information between the AI 	executable written in C++ and the game
+	Contains the executable checkers game, a shortcut with a neat little icon, a test AI executable, and the text files necessary to transfer information between the AI 	executable written in C++ and the game
 
 
 II. The Game
