@@ -12,7 +12,7 @@ CS438 final project contains an AI-playable version of the game of checkers. The
 
 3. Checkers Game
 
-  * Contains the executable checkers game, a shortcut with a neat little icon, a test AI executable, and the text files necessary to transfer information between the AI executable written in C++ and the game
+   * Contains the executable checkers game, a shortcut with a neat little icon, a test AI executable, and the text files necessary to transfer information between the AI executable written in C++ and the game
 
 ## The Game
 
