@@ -15,15 +15,15 @@ CS438 final project contains an AI-playable version of the game of checkers. The
 	
 1. C# Checkers Source Code 
 
-	Contains C# source code for the board as well as the logic to judge moves
+Contains C# source code for the board as well as the logic to judge moves
 
 2. C++ AI Source Code
 
-    Contains the source code for a computer to judge moves
+Contains the source code for a computer to judge moves
 
 3. Checkers Game
 
-	Contains the executable checkers game, a shortcut with a neat little icon, a test AI executable, and the text files necessary to transfer information between the AI 	executable written in C++ and the game
+Contains the executable checkers game, a shortcut with a neat little icon, a test AI executable, and the text files necessary to transfer information between the AI 	executable written in C++ and the game
 
 
 II. The Game
