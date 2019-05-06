@@ -259,7 +259,7 @@ namespace Checkers {
                     SetTurn();
                 }
                 if (winner == 0) { winner = IsWinner(); }
-                Thread.Sleep(500);
+                Thread.Sleep(100);
             }
 
             if (winner == 1) { MessageBox.Show("Black Wins"); }
