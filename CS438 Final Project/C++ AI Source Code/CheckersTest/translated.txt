@@ -1,0 +1,10 @@
+Black took a move
+
+r - r - r - r - 
+- r - r -   - r 
+r - r -   - r - 
+-   -   -   - r 
+  - b - r - b - 
+- b - b - b - b 
+  - b - b -   - 
+- b - b - b - b 

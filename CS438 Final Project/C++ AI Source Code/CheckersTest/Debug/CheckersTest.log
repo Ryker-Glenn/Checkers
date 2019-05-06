@@ -1,0 +1,13 @@
+﻿  CheckersTest.cpp
+c:\users\ryker\documents\checkerstest\checkerstest\turn.h(50): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryker\documents\checkerstest\checkerstest\turn.h(55): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryker\documents\checkerstest\checkerstest\turn.h(60): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryker\documents\checkerstest\checkerstest\turn.h(65): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryker\documents\checkerstest\checkerstest\turn.h(387): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryker\documents\checkerstest\checkerstest\turn.h(390): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryker\documents\checkerstest\checkerstest\turn.h(464): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryker\documents\checkerstest\checkerstest\turn.h(467): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryker\documents\checkerstest\checkerstest\checkerstest.cpp(41): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ryker\documents\checkerstest\checkerstest\checkerstest.cpp(44): warning C4018: '<': signed/unsigned mismatch
+  LINK : C:\Users\ryker\Documents\CheckersTest\Debug\CheckersTest.exe not found or not built by the last incremental link; performing full link
+  CheckersTest.vcxproj -> C:\Users\ryker\Documents\CheckersTest\Debug\CheckersTest.exe
