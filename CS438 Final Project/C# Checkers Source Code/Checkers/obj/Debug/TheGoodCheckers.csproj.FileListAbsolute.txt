@@ -8,3 +8,13 @@ C:\Users\ryker\source\repos\Checkers\Checkers\obj\Debug\TheGoodCheckers.csproj.C
 C:\Users\ryker\source\repos\Checkers\Checkers\obj\Debug\Checkers.exe
 C:\Users\ryker\source\repos\Checkers\Checkers\obj\Debug\Checkers.pdb
 C:\Users\ryker\source\repos\Checkers\Checkers\obj\Debug\Checkers.CheckersGame.resources
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\bin\Debug\Checkers.exe.config
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\bin\Debug\Checkers.exe
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\bin\Debug\Checkers.pdb
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Debug\TheGoodCheckers.csprojAssemblyReference.cache
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Debug\Checkers.CheckersGame.resources
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Debug\Checkers.Properties.Resources.resources
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Debug\TheGoodCheckers.csproj.GenerateResource.cache
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Debug\TheGoodCheckers.csproj.CoreCompileInputs.cache
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Debug\Checkers.exe
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Debug\Checkers.pdb

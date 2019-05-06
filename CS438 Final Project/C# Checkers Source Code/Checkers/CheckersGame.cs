@@ -259,7 +259,7 @@ namespace Checkers {
                     SetTurn();
                 }
                 if (winner == 0) { winner = IsWinner(); }
-                Thread.SpinWait(10000000);
+                Thread.Sleep(500);
             }
 
             if (winner == 1) { MessageBox.Show("Black Wins"); }
@@ -483,41 +483,110 @@ namespace Checkers {
             return 0;
         }
 
-        // Checks if the king's move is valid
-        private int RedKing(Grid s, Grid m) {
-            int move = 0;
-            if (s.Row < m.Row) {
-                move = RedMove(s, m);
-            }
-            if (s.Row > m.Row) {
-                move = BlackMove(s, m);
-            }
+        private int RedBack(Grid s, Grid m) {
             if (s.Col == 0) {
-                if (s.Row - 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row + 1, s.Col + 1].Mark == 'b' && m.Mark == ' ') {
+                if (s.Row - 1 == m.Row && s.Col + 1 == m.Col && m.Mark == ' ') {
+                    return 1;
+                }
+                if (s.Row - 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row - 1, s.Col + 1].Mark == 'b' && m.Mark == ' ') {
                     return 2;
                 }
             }
             if (s.Col == 1) {
+                if ((s.Row - 1 == m.Row && s.Col + 1 == m.Col && m.Mark == ' ') ||
+                    (s.Row - 1 == m.Row && s.Col - 1 == m.Col && m.Mark == ' ')) {
+                    return 1;
+                }
                 if (s.Row - 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row - 1, s.Col + 1].Mark == 'b' && m.Mark == ' ') {
                     return 2;
                 }
             }
             if (s.Col > 1 && s.Col < 6) {
+                if ((s.Row - 1 == m.Row && s.Col + 1 == m.Col && m.Mark == ' ') ||
+                    (s.Row - 1 == m.Row && s.Col - 1 == m.Col && m.Mark == ' ')) {
+                    return 1;
+                }
                 if ((s.Row - 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row - 1, s.Col + 1].Mark == 'b' && m.Mark == ' ') ||
                     (s.Row - 2 == m.Row && s.Col - 2 == m.Col && buttons[s.Row - 1, s.Col - 1].Mark == 'b' && m.Mark == ' ')) {
                     return 2;
                 }
             }
             if (s.Col == 6) {
+                if ((s.Row - 1 == m.Row && s.Col + 1 == m.Col && m.Mark == ' ') ||
+                    (s.Row - 1 == m.Row && s.Col - 1 == m.Col && m.Mark == ' ')) {
+                    return 1;
+                }
                 if (s.Row - 2 == m.Row && s.Col - 2 == m.Col && buttons[s.Row - 1, s.Col - 1].Mark == 'b' && m.Mark == ' ') {
                     return 2;
                 }
             }
             if (s.Col == 7) {
+                if (s.Row - 1 == m.Row && s.Col - 1 == m.Col && m.Mark == ' ') {
+                    return 1;
+                }
                 if (s.Row - 2 == m.Row && s.Col - 2 == m.Col && buttons[s.Row - 1, s.Col - 1].Mark == 'b' && m.Mark == ' ') {
                     return 2;
                 }
             }
+            return 0;
+        }
+
+        private int BlackBack(Grid s, Grid m) {
+            if (s.Col == 0) {
+                if (s.Row + 1 == m.Row && s.Col + 1 == m.Col && m.Mark == ' ') {
+                    return 1;
+                }
+                if (s.Row + 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row + 1, s.Col + 1].Mark == 'r' && m.Mark == ' ') {
+                    return 2;
+                }
+            }
+            if (s.Col == 1) {
+                if ((s.Row + 1 == m.Row && s.Col + 1 == m.Col && m.Mark == ' ') ||
+                    (s.Row + 1 == m.Row && s.Col - 1 == m.Col && m.Mark == ' ')) {
+                    return 1;
+                }
+                if (s.Row + 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row + 1, s.Col + 1].Mark == 'r' && m.Mark == ' ') {
+                    return 2;
+                }
+            }
+            if (s.Col > 1 && s.Col < 6) {
+                if ((s.Row + 1 == m.Row && s.Col + 1 == m.Col && m.Mark == ' ') ||
+                    (s.Row + 1 == m.Row && s.Col - 1 == m.Col && m.Mark == ' ')) {
+                    return 1;
+                }
+                if ((s.Row + 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row + 1, s.Col + 1].Mark == 'r' && m.Mark == ' ') ||
+                    (s.Row + 2 == m.Row && s.Col - 2 == m.Col && buttons[s.Row + 1, s.Col - 1].Mark == 'r' && m.Mark == ' ')) {
+                    return 2;
+                }
+            }
+            if (s.Col == 6) {
+                if ((s.Row + 1 == m.Row && s.Col + 1 == m.Col && m.Mark == ' ') ||
+                    (s.Row + 1 == m.Row && s.Col - 1 == m.Col && m.Mark == ' ')) {
+                    return 1;
+                }
+                if (s.Row + 2 == m.Row && s.Col - 2 == m.Col && buttons[s.Row + 1, s.Col - 1].Mark == 'r' && m.Mark == ' ') {
+                    return 2;
+                }
+            }
+            if (s.Col == 7) {
+                if (s.Row + 1 == m.Row && s.Col - 1 == m.Col && m.Mark == ' ') {
+                    return 1;
+                }
+                if (s.Row + 2 == m.Row && s.Col - 2 == m.Col && buttons[s.Row + 1, s.Col - 1].Mark == 'r' && m.Mark == ' ') {
+                    return 2;
+                }
+            }
+            return 0;
+        }
+        // Checks if the king's move is valid
+        private int RedKing(Grid s, Grid m) {
+            int move = 0;
+            if (s.Row < m.Row) {
+                move = RedMove(s, m);
+            } else {
+                move = RedBack(s, m);
+            }
+            
             return move;
         }
 
@@ -525,36 +594,9 @@ namespace Checkers {
         private int BlackKing(Grid s, Grid m) {
             int move = 0;
             if (s.Row < m.Row) {
-                move = RedMove(s, m);
-            }
-            if (s.Row > m.Row) {
+                move = BlackBack(s, m);
+            } else {
                 move = BlackMove(s, m);
-            }
-            if (s.Col == 0) {
-                if (s.Row + 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row + 1, s.Col + 1].Mark == 'r' && m.Mark == ' ') {
-                    return 2;
-                }
-            }
-            if (s.Col == 1) {
-                if (s.Row + 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row + 1, s.Col + 1].Mark == 'r' && m.Mark == ' ') {
-                    return 2;
-                }
-            }
-            if (s.Col > 1 && s.Col < 6) {
-                if ((s.Row + 2 == m.Row && s.Col + 2 == m.Col && buttons[s.Row + 1, s.Col + 1].Mark == 'r' && m.Mark == ' ') ||
-                    (s.Row + 2 == m.Row && s.Col - 2 == m.Col && buttons[s.Row + 1, s.Col - 1].Mark == 'r' && m.Mark == ' ')) {
-                    return 2;
-                }
-            }
-            if (s.Col == 6) {
-                if (s.Row + 2 == m.Row && s.Col - 2 == m.Col && buttons[s.Row + 1, s.Col - 1].Mark == 'r' && m.Mark == ' ') {
-                    return 2;
-                }
-            }
-            if (s.Col == 7) {
-                if (s.Row + 2 == m.Row && s.Col - 2 == m.Col && buttons[s.Row + 1, s.Col - 1].Mark == 'r' && m.Mark == ' ') {
-                    return 2;
-                }
             }
             return move;
         }
@@ -572,6 +614,9 @@ namespace Checkers {
             moveToSquare.Mark = selectedPiece.Mark;
             selectedPiece.Mark = ' ';
             CheckKing();
+            selectedPiece.GetButton.Refresh();
+            moveToSquare.GetButton.Refresh();
+            Application.DoEvents();
         }
 
         // If the move is a jump, make the move on the board
@@ -593,11 +638,12 @@ namespace Checkers {
             }
             bwrow = (srow + trow) / 2;
             bwcol = (scol + tcol) / 2;
+            MakeMove();
             buttons[bwrow, bwcol].GetButton.Image = null;
             buttons[bwrow, bwcol].Mark = ' ';
-            MakeMove();
-            // find the piece jumped by taking the average of the row and the column
             
+            buttons[bwrow, bwcol].GetButton.Refresh();
+            Application.DoEvents();
         }
 
         // If the move is another jump, make it before 
@@ -864,8 +910,6 @@ namespace Checkers {
         // do nothing instead of throwing an error
         private void Picture_Click(object sender, MouseEventArgs e) { }
 
-        private void panel1_Paint(object sender, PaintEventArgs e) {
-
-        }
+        private void panel1_Paint(object sender, PaintEventArgs e) { }
     }
 }
