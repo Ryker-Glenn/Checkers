@@ -23,7 +23,7 @@ Contains the source code for a computer to judge moves
 
 3. Checkers Game
 
-Contains the executable checkers game, a shortcut with a neat little icon, a test AI executable, and the text files necessary to transfer information between the AI 	executable written in C++ and the game
+Contains the executable checkers game, a shortcut with a neat little icon, a test AI executable, and the text files necessary to transfer information between the AI executable written in C++ and the game
 
 
 II. The Game
