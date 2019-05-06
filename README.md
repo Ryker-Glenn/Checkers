@@ -39,6 +39,6 @@ The AIvAI mode is triggered when a valid executable file compiled from the C++ s
 
 If a bad move is made by the \*.exe file, the user will be notified via popup message that their piece has made a bad move and will declare the opponent the winner. The game is won when either player captures all of their opponents' pieces.
 
-![AIvAI](https://giphy.com/gifs/Ll90uTVl64OPW6W1MQ/AIvAI.gif)
+![AIvAI](https://media.giphy.com/media/Ll90uTVl64OPW6W1MQ/giphy.gif)
 
 # Checkers
