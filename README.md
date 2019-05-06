@@ -17,7 +17,7 @@ To start the game, the user must enter the **Checkers Game** directory when in t
 
 The PvP game is only playable if two players are sharing the same computer, there is no option to play via the internet. To start a PvP game, the user(s) will leave both of the files blank. For all modes, once the user clicks the start button, all pieces will be enabled and the game will begin with the player on the black side going first. When it is a player's turn, they will click a piece. If the piece is moveable, the board square will be highlighted green, indicating that the player may select a square to move to. If a good move is entered, the board will update with the piece on its new square.
 
-![PvP](https://github.com/Ryker-Glenn/Checkers/tree/master/CS438%20Final%20Project/gifs/PvP.gif)
+![PvP](https://media.giphy.com/media/J3LZXraV7QEAFFzbNf/giphy.gif)
 
 ### Person vs. AI program
 
@@ -25,13 +25,13 @@ The PvAI, AIvP and AIvAI game only works with an executable of the C++ source co
 
 The PvAI game is started when the user enters a valid executable file compiled from the C++ source code on the **red side**. In checkers, black goes first, so the user will have the first move. If they click a moveable piece, the square will be highlighted green. They will then click a black square. If the move is good, the move will be made. The AI will not take its turn until the user has made a move on the board. The game will continue until one player has no more moves to make or one player captures the rest of the other players' pieces.
 
-![PvAI](https://github.com/Ryker-Glenn/Checkers/tree/master/CS438%20Final%20Project/gifs/PvAI.gif)
+![PvAI](https://media.giphy.com/media/h3pCZV2tUnCnOTpQ3l/giphy.gif)
 
 ### AI program vs. Person
 
 The AIvP mode has the same  flow as the PvAI mode. The only difference is that this mode is enabled when the user enters a valid executable file compiled from the C++ source code file from the **black side**. When the user clicks the start game button, the AI on the black side will make its first move automatically, then the computer gives the turn to the user. 
 
-![AIvP](https://github.com/Ryker-Glenn/Checkers/tree/master/CS438%20Final%20Project/gifs/AIvP.gif)
+![AIvP](https://media.giphy.com/media/KazlrilHWcOThDai0Q/giphy.gif)
 
 ### AI vs. AI
 
