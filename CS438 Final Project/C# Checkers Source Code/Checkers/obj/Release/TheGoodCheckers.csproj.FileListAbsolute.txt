@@ -1,0 +1,10 @@
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\bin\Release\Checkers.exe.config
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\bin\Release\Checkers.exe
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\bin\Release\Checkers.pdb
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Release\TheGoodCheckers.csprojAssemblyReference.cache
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Release\Checkers.CheckersGame.resources
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Release\Checkers.Properties.Resources.resources
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Release\TheGoodCheckers.csproj.GenerateResource.cache
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Release\TheGoodCheckers.csproj.CoreCompileInputs.cache
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Release\Checkers.exe
+C:\Users\ryker\source\repos\CS438 Final Project\C# Checkers Source Code\Checkers\obj\Release\Checkers.pdb

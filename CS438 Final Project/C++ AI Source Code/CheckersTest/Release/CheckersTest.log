@@ -1,0 +1,17 @@
+﻿  pch.cpp
+  CheckersTest.cpp
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\Turn.h(50): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\Turn.h(55): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\Turn.h(60): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\Turn.h(65): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\Turn.h(693): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\Turn.h(696): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\Turn.h(707): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\Turn.h(710): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\CheckersTest.cpp(41): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\CheckersTest\CheckersTest.cpp(44): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 353 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CheckersTest.vcxproj -> C:\Users\ryker\source\repos\CS438 Final Project\C++ AI Source Code\Release\CheckersTest.exe
