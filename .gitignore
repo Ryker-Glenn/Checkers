@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Checkers
+/HandGestureRecognition
+/HandGestureRecognitiondead
+/Kwizzard
+/Kwizzard Prototype App
+/NeuralNetwork
+/senior-design
+/Hand_Gesture_Recognition/.vs/Hand_Gesture_Recognition/v16/Browse.VC.db-shm
+/Hand_Gesture_Recognition/.vs/Hand_Gesture_Recognition/v16/Browse.VC.opendb
+/Hand_Gesture_Recognition/.vs/Hand_Gesture_Recognition/v16/Browse.VC.db-wal
+/Hand_Gesture_Recognition/.vs/Hand_Gesture_Recognition/v16/Browse.VC.db
